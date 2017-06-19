@@ -7,7 +7,7 @@ basic_rate = 10.50
 if h <=40:
    pay = h * basic_rate
 elif h > 40:
-   pay = 40* basic_rate + (h-40)*1.5*basic_rate
+   pay = 40* basic_rate + (h-40)*0.5*basic_rate
 else: 
    print 'wrong parameter'
     
